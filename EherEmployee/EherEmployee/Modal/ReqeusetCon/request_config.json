@@ -1,0 +1,274 @@
+{
+"BaseInfo":
+{
+"debugURL" : "http://alongch.imwork.net:5588/erp/api",
+"releaseURL" : "http://120.24.74.199:8071/client/api",
+"isDebug" : "0",
+"cookie" : "",
+"loadingStr" : "正在加载...",
+"noDataStr" : "暂无数据",
+"des" : "loadType = normal/modal/null"
+},
+"Op":
+[
+ {
+ "key" : "doLogin",
+ "des" : "用户登录",
+ "value" : "doOrganization/login",
+ "loadType" : "modal",
+ "loadingStr" : "正在登录中...",
+ "noDataStr" : "没有数据"
+ },
+ {
+ "key" : "queryStoreList",
+ "des" : "查询门店列表",
+ "value" : "doOrganization/queryStoreList",
+ "loadType" : "normal",
+ "loadingStr" : "正在加载中...",
+ "noDataStr" : "没有数据"
+ },
+ {
+ "key" : "getShowList",
+ "des" : "展示列表",
+ "value" : "doExhibition/queryExList",
+ "loadType" : "modal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "getShowDetail",
+ "des" : "展示详情",
+ "value" : "doExhibition/queryExDetail",
+ "loadType" : "modal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "addAppointment",
+ "des" : "新增预约",
+ "value" : "doAppointment/addAppointment",
+ "loadType" : "modal",
+ "loadingStr" : "正在新增...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "modifyAppointment",
+ "des" : "编辑预约",
+ "value" : "doAppointment/modifyAppointment",
+ "loadType" : "modal",
+ "loadingStr" : "正在提交...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "getAppointStatus",
+ "des" : "获取预约状态",
+ "value" : "doAppointment/getAppStatus",
+ "loadType" : "modal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "changeAppointStatus",
+ "des" : "修改预约状态",
+ "value" : "doAppointment/changeAppStatus",
+ "loadType" : "modal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "queryAppointmentEmployeeList",
+ "des" : "预约列表",
+ "value" : "doAppointment/queryAppointmentList",
+ "loadType" : "normal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "queryAppointSignList",
+ "des" : "签到列表",
+ "value" : "doAppointment/queryEmpAttend",
+ "loadType" : "modal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "employeeSign",
+ "des" : "员工签到",
+ "value" : "doAppointment/empSign",
+ "loadType" : "modal",
+ "loadingStr" : "正在提交...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "queryRoomList",
+ "des" : "房间列表",
+ "value" : "doRoom/queryRoomList",
+ "loadType" : "modal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "queryCustomerList",
+ "des" : "会员列表",
+ "value" : "doCustomer/queryCustomerList",
+ "loadType" : "normal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "queryBuyProjectList",
+ "des" : "会员已购项目列表",
+ "value" : "doCustomer/queryCustomerCard",
+ "loadType" : "normal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "queryProjectList",
+ "des" : "服务项目列表",
+ "value" : "doProduct/queryItemList",
+ "loadType" : "normal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "queryProductList",
+ "des" : "产品列表",
+ "value" : "doProduct/queryGoodsList",
+ "loadType" : "normal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "queryCardList",
+ "des" : "卡模板列表",
+ "value" : "doProduct/queryCardList",
+ "loadType" : "normal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "queryHomePageList",
+ "des" : "首页列表",
+ "value" : "doCustomer/queryDaySummary",
+ "loadType" : "normal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "queryCustomerDetailList",
+ "des" : "会员列表（详细）",
+ "value" : "doCustomer/queryCustomerDetailList",
+ "loadType" : "normal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "queryCustomerAccountInfo",
+ "des" : "会员卡包账户",
+ "value" : "doCustomer/queryCustomerDetail",
+ "loadType" : "normal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "queryCustomerRecordList",
+ "des" : "消费记录",
+ "value" : "doOrder/queryRecordList",
+ "loadType" : "normal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "queryDebtList",
+ "des" : "欠款列表",
+ "value" : "doOrder/queryArrearInfo",
+ "loadType" : "normal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "getDefaultPayList",
+ "des" : "默认支付列表",
+ "value" : "doOrder/queryPrePayInfo",
+ "loadType" : "null",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "queryPayMemberCard",
+ "des" : "查询可用支付卡项",
+ "value" : "doOrder/queryPayMemberCard",
+ "loadType" : "normal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "queryVoucherList",
+ "des" : "查询可用优惠券",
+ "value" : "doOrder/queryPayMemberCard",
+ "loadType" : "normal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "saveOrder",
+ "des" : "开单",
+ "value" : "doOrder/saveOrder",
+ "loadType" : "modal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "queryAdviserList",
+ "des" : "顾问列表",
+ "value" : "doEmployee/queryEmpList",
+ "loadType" : "normal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "queryCustomerSourceList",
+ "des" : "会员来源列表",
+ "value" : "doCustomer/queryFromType",
+ "loadType" : "normal",
+ "loadingStr" : "正在加载...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ },
+ {
+ "key" : "addMember",
+ "des" : "新增会员",
+ "value" : "doCustomer/saveMember",
+ "loadType" : "modal",
+ "loadingStr" : "正在新增...",
+ "noDataStr" : "暂无数据",
+ "modelType" : "1"
+ }
+ ]
+}
